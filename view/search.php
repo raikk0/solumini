@@ -28,7 +28,7 @@
 			foreach($companies['data'] as $comp){
 				$expired = (strtotime($comp['expire_date']) > strtotime(date("Y/m/d")) ? 0 : 1);
 				echo	"<div class='row pt-2 category-company' style='order: ".$expired."'>
-							<a href='/". $_SERVER["INDEX"] .  $comp["id"]. "/company/" .str_replace(" ", "-", $comp["name"])."'>
+							<a href='/". $_SERVER["INDEX"] .  $comp["company_id"]. "/company/" .str_replace(" ", "-", $comp["name"])."'>
 								<div class='row'>
 									<div class='col category-company-name' >".$comp["name"]." ".($expired ? "": "<span class='material-icons me-2 category-star'>star_rate</span>")."
 									</div>

@@ -5,8 +5,8 @@ $_SERVER['INDEX'] = explode("/",$_SERVER['PHP_SELF'])[1] . '/';
 class Database{
   private $DB_HOST = "localhost";
   private $DB_USER = "solumini";
-  private $DB_PASSWORD = "abobrinha";
-  private $DB_NAME = "solumini2";
+  private $DB_PASSWORD = "senha123";
+  private $DB_NAME = "solumini";
   private $conn;
   
   public function __construct()

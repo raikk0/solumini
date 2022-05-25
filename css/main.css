@@ -51,6 +51,8 @@ body{
 .icon-call{
 	font-size: 14px !important;
     color: #9e66cc;
+    line-height: 1.6 !important;
+    margin-right: 3px;
 }
 
 .content-admin{

@@ -33,7 +33,7 @@
 			foreach($company['data'] as $comp){
 				$phones_HTML = "";
 				foreach($company['phones']['data'] as $phone){
-					$phones_HTML .= "<div class='col call-number' style='display: flex;'> <span class='material-icons icon-call align-middle'>call</span> ".
+					$phones_HTML .= "<div class='col call-number' style='display: flex;'> <span class='material-icons icon-call'>call</span> ".
 					($phone['is_main'] ? '<strong style="color: #7d4fa4">' :'').$phone['number'].($phone['is_main'] ? '</strong>' :'').
 					" </div>";
 				}

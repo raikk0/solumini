@@ -72,7 +72,7 @@
 							echo "<div class='row row-cols-6 flex-row-reverse mt-3'>";
 							echo 	"<div class='col-sm-2 text-end'><button type='submit' class='btn btn-primary'>Salvar</button></div>";
 							echo 	"<div class='col-sm-9 text-end'><div onClick='deleteRegistry()' class='btn btn-danger'>Excluir Empresa</div></div>";
-							echo 	"<div class='col-sm-1 text-end'><div onClick='showPhones()' class='btn btn-primary' style='display: inline-flex;'>Telefones
+							echo 	"<div class='col-sm-1 text-end'><div onClick='showPhones()' class='btn btn-primary btn-show-phones' style='display: inline-flex;'>Telefones
 										<span class='material-icons'>arrow_drop_down</span>
 									</div></div>";
 							echo "</div>";
@@ -144,6 +144,7 @@ let errorInfo = '<?php echo @$_REQUEST['errorInfo'];?>';
 function showFormToAdd(type){
 	let form = document.forms[0];
 
+	$('.btn-show-phones').hide();
 	form.style.display = 'block';
 	let btnsDanger = document.getElementsByClassName('btn-danger');
 	btnsDanger[0].style.display = 'none';

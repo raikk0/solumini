@@ -1,0 +1,14 @@
+RewriteEngine on
+
+RewriteRule ^([0-9]+)/companies\/?$ index.php?category_id=$1&page=categories&action=category
+RewriteRule ^([0-9]+)/company/(.*)/?$ index.php?company_id=$1&page=companies&action=company&cname=$2
+
+RewriteRule ^admin/([0-9]+)?$ index.php?page=admin&type=$1
+RewriteRule ^admin/([0-9]+)/([0-9]+)?$ index.php?page=admin&type=$1&selected=$2
+RewriteRule ^admin/?$ admin/1
+
+RewriteRule ^search/([A-Za-z0-9-]+)/?$ index.php?page=search&text=$1
+
+ErrorDocument 403 /solumini/error.php
+ErrorDocument 404 /solumini/error.php
+ErrorDocument 500 /solumini/error.php

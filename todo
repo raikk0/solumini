@@ -1,0 +1,37 @@
+## BackEnd ##
+✔ Validação do nome da empresa na url - comparar o nome com o id para evitar link de enganação @done(22-05-19 11:54)
+✔ Redirecionamento para uma página de erro quando url inválida @done(22-05-19 11:54)
+✔ Adaptar db para incorporar imagens de categorias @done(22-05-23 21:17)
+
+## Home ##
+✔ Sistema de Busca @done(22-05-24 20:54)
+
+## Categorias ##
+✔ Filtrar as empresas com contrato ativo -> contrato expirado -> sem contrato @done(22-05-23 16:11)
+✔ Fazer um destaque para empresas com contrato ativo @done(22-05-23 16:12)
+✔ Definir quais informações da empresa deverão ser apresentada @done(22-05-23 16:12)
+
+## Empresas ##
+✔ Deve exibir as principais informações sobre a empresa: nome, cidade, estado, endereço, telefones, categoria e descrição @done(22-05-23 21:17)
+
+## Administrativo ##
+✔ Página administrativa @done(22-05-20 17:38)
+✔ Página de cadastro de empresas @done(22-05-22 23:07)
+✔ Página de cadastro de contratos @done(22-05-22 23:07)
+✔ Adicionar campos de data de expiração dos contratos @done(22-05-23 13:34)
+✔ Barra de rolagem na lista de empresas e contratos @done(22-05-23 23:34)
+✔ Não mostrar empresas que já tenham contrato na hora de adicionar/editar um contrato @done(22-05-24 21:14)
+✔ Formulário de inclusão/exclusão de telefones das empresas @done(22-05-25 03:25)
+✔ Deixar os botões 'empresas' e 'contatos' bonitinhos @done(22-05-25 03:25)
+✔ Permitir escolher os telefones principais da empresa @done(22-05-25 03:45)
+✘ Edição de telefones @cancelled(22-05-25 09:41)
+
+
+## Style ##
+✔ Definir identidade visual @done(22-05-20 17:38)
+✔ Definir logotipo @done(22-05-19 17:39)
+✔ Definir layout base @done(22-05-20 17:38)
+✘ Personalizar página de erro @cancelled(22-05-25 03:25)
+
+
+

@@ -1,0 +1,352 @@
+@import url('https://fonts.googleapis.com/css2?family=Bakbak+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://example.com/MaterialIcons-Regular.eot); /* For IE6-8 */
+  src: local('Material Icons'),
+    local('MaterialIcons-Regular')
+}
+
+a {
+    all: unset;
+}
+
+
+body{
+	background-color: #f9f9f9a6;
+}
+
+.title-category{
+	font-size: 14px;
+	font-family: 'Work Sans', sans-serif;
+	padding-top: 14px;
+}
+
+.material-icons:hover{
+	color: #dbcee2;	
+}
+
+.btn-return{
+	padding-left: 0px;
+    margin-left: 0px;
+    border-right: 2px solid #6e4590;
+    padding-right: 0px;
+    /* margin-right: 7px; */
+	cursor:pointer;
+	display: flex;
+}
+
+.btn-return:hover{
+	background-color: #7b539d;
+}
+
+.call-number{
+	font-size: 14px;
+	/* border-right: 1px solid #eaeaea; */
+	padding-top: 6px;
+    padding-bottom: 6px;
+}
+.icon-call{
+	font-size: 14px !important;
+    color: #9e66cc;
+}
+
+.content-admin{
+    position: fixed;    
+    height: 100%;
+}
+
+.content{
+    /* position: fixed; */
+    
+    height: 100%;
+}
+
+.content-msg{
+	color: #b701e7;
+	font-size: 26px;
+	font-family: 'Bakbak One', cursive;
+	
+}
+a:hover {
+    color: unset;
+	/* color: initial; */
+	cursor:pointer;
+	/* color: #420674; */
+    /* font-weight: 500; */
+}
+
+header a:hover{
+	all: unset;
+	cursor:pointer;
+}
+
+header{
+	background-color: #522b72;
+    color: white;
+	font-family: 'Bakbak One', cursive;
+}
+
+hr{
+	border: 0px;
+}
+
+.line-header{
+	padding: 0!important;
+    margin: 0!important;
+    opacity: 1!important;
+    display: block!important;
+    height: 6px!important;
+    background: #e81ee7;
+    background: linear-gradient(90deg,rgba(232,30,231,1) 0%,rgba(102,45,145,1) 16%,rgba(102,45,145,1) 44%,rgba(145,53,109,1) 62%,rgba(229,70,39,1) 81%,rgba(40,155,228,1) 98%);
+}
+
+.category-company{
+	border-bottom: 1px solid #eeeeee;
+	padding: 2px;
+}
+
+.company-infos{
+	font-size: 15px !important;
+	border: 1px solid #e2e2e2;
+	padding-top: 10px;
+	font-family: 'Work Sans', sans-serif;
+	background-color: white;
+}
+
+.category-company:hover{
+	background-color: #f1f1f2c2;
+}
+
+.category-company-name{
+	font-weight: 600;
+    color: #7a4f9c;
+}
+
+.category-star{
+	font-size: 14px !important;
+    color: #dcd11f;
+}
+
+.company-star
+{
+	font-size: 20px !important;
+    color: #fff100;
+    margin-left: 10px;
+}
+
+.category-company-descr{
+	font-size: 12px;
+}
+
+.manage-content{
+	height: 80%;
+}
+
+.manage-context{
+	/* margin-top: 38px; */
+	height: 100%;
+	border: 1px solid #522b7275;
+}
+
+.btn-menu-admin{
+	text-align: center;
+    border-right: 1px solid #957da8;
+    background-color: #522b72;
+    color: white;
+    line-height: 2;
+}
+
+.manage-list-selected{
+	background-color: #e5e1e9 !important;
+}
+
+.manage-list{
+	border-right: 1px solid #e0dbe5;
+	padding: 0px;
+	height: 100%;
+    overflow: scroll;
+}
+
+.manage-list-add{
+	background-color: #1aa030 !important;
+	color: white !important;
+	cursor:pointer;
+}
+
+.manage-list-add:hover{
+	background-color: #28ac3e !important;
+}
+
+.manage-list-col{
+	padding: 6px;
+    border-bottom: 1px solid #cec4d7;
+    background: #f1f1f1;
+    color: #522b72;
+    font-weight: 500;
+    font-size: 13px;
+}
+
+.manage-list-col:hover{
+	background-color: #e9e7e7a8;
+}
+
+.category_img{
+	border: 1px solid #d1b7e7;
+    border-radius: 7px;
+	/* width: 8vw; */
+	width: 120px;
+}
+
+.list-categories{
+	display: flex;
+}
+
+.category_descr{
+	/* font-family: 'Dongle', sans-serif; */
+	font-size: 20px;
+	font-style: normal;
+    /* font-weight: 700; */
+    color: #a9a9a9;
+}
+
+.category_descr_qtd{
+    color: #3ac1fe;
+    font-weight: 700;
+    font-size: 13px;
+}
+
+.category_name{
+    color: #b701e7;
+    font-family: 'Bakbak One', cursive;
+    margin-top: -3px;
+    font-size: 16px;
+}
+
+.content-search{
+	height: 130px;
+	padding-top: 45px;
+}
+
+.input-search{
+	width: 45%;
+	margin-right: 30px;
+	display: initial;
+}
+
+.page-header{
+	color: white;
+    background: rgb(140,96,176);
+	background: linear-gradient(117deg, rgba(140,96,176,1) 0%, rgba(82,43,114,1) 99%);
+	padding-left: 0px;	
+}
+
+.phones-content{
+	margin-top: 10px;
+	width: 25%;
+    border: 1px solid #b3a2c0;
+	display: none;
+}
+
+.phone-item{
+	display: flex;
+	background-color: #f6f6f6;
+    border-bottom: 1px solid #e4e4e4;
+    line-height: 1.8;
+    padding-top: 2px;
+	padding-left: 5px;
+}
+
+.phone-item-add{
+	font-size: 14px;
+    background-color: #28ac3e !important;
+    color: white;
+	cursor:pointer;
+}
+
+.phone-add-input{
+	display: none;
+}
+
+.input-add-number{
+	height: 23px;
+}
+
+.icon-done{
+	all: unset;
+	margin-left: 5px;
+	font-size: 17px !important;
+    color: #ffffff;
+    background-color: #0cd81a;
+    border-radius: 4px;
+	cursor:pointer;
+}
+
+.icon-star{
+	all: unset;
+	margin-left: 5px;
+	font-size: 17px !important;
+    color: #ffffff;
+    background-color: #cecece;
+    border-radius: 4px;
+	cursor:pointer;
+}
+
+.icon-remove{
+	font-size: 17px !important;
+    color: #ffffff;
+    background-color: #d80c0c;
+    border-radius: 4px;
+	cursor:pointer;
+}
+
+.icon-return{
+	font-size: 17px !important;
+    color: #ffffff;
+    background-color: #949494;
+    border-radius: 4px;
+	cursor:pointer;
+}
+
+.icon-edit{
+	font-size: 17px !important;
+    color: #ffffff;
+    background-color: #0d6efd;
+    border-radius: 4px;
+	cursor:pointer;
+}
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+}
+
+
+
+@media only screen and (max-width: 600px) {
+  .content-msg {
+    font-size: 23px;
+  }
+}

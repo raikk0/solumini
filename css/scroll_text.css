@@ -1,0 +1,41 @@
+* {
+ 	box-sizing: border-box;
+}
+
+.animate-text {
+  height: 31px;
+  overflow: hidden;
+}
+
+.animate-text span{
+    /* font-size: 40px; */
+    color:#00affe;
+    /* font-weight: 700; */
+    line-height: 33px;
+    display: none;
+}
+
+.animate-text span.text-in{
+	display: block;
+	animation: textIn 1s ease;
+}
+.animate-text span.text-out{
+	animation: textOut 1s ease;
+}
+@keyframes textIn{
+	0%{
+		transform: translateY(100%);
+	}
+	100%{
+		transform: translateY(0%);
+	}
+}
+@keyframes textOut{
+	0%{
+		transform: translateY(0%);
+	}
+	100%{
+		transform: translateY(-100%);
+
+	}
+}

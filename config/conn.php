@@ -4,8 +4,8 @@ $_SERVER['INDEX'] = explode("/",$_SERVER['PHP_SELF'])[1] . '/';
 // Create connection
 class Database{
   private $DB_HOST = "localhost";
-  private $DB_USER = "solumini";
-  private $DB_PASSWORD = "senha123";
+  private $DB_USER = "root";
+  private $DB_PASSWORD = "";
   private $DB_NAME = "solumini";
   private $conn;
   

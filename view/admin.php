@@ -6,8 +6,8 @@
 <div class="container-fluid content-admin">
 	<div class="container content-body manage-content">
 		<div class="row manage-menu mt-3">
-			<div class="col-1 btn-menu-admin"><a href="/<?php echo $_SERVER["INDEX"] ?>admin/1">Empresas</a></div>
-			<div class="col-1 btn-menu-admin"><a href="/<?php echo $_SERVER["INDEX"] ?>admin/2">Contratos</a></div>
+			<div onclick="location.href='/<?php echo $_SERVER['INDEX'] ?>admin/1'" class="col-1 btn-menu-admin">Empresas</div>
+			<div onclick="location.href='/<?php echo $_SERVER['INDEX'] ?>admin/2'" class="col-1 btn-menu-admin">Contratos</div>
 		</div>
 		<div class="row manage-context">
 			<!-- Lista -->

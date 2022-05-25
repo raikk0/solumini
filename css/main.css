@@ -161,9 +161,15 @@ hr{
     line-height: 2;
 }
 
+.btn-menu-admin:hover{
+    background-color: #613784;
+    cursor:pointer;
+}
+
 .manage-list-selected{
 	background-color: #e5e1e9 !important;
 }
+
 
 .manage-list{
 	border-right: 1px solid #e0dbe5;
